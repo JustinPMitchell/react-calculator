@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+input[type="number"] {
+  font-size: 48px;
+  font-family: 'Orbitron', sans-serif;
+  width: 300px;
+  border: none;
+  border-bottom: 4px solid black;
+  text-align: center;
+}
+
+input[type="submit"] {
+  font-size: 48px;
+  font-family: 'Orbitron', sans-serif;
+  width: 100px;
+  border: none;
+  text-align: center;
+  display: block;
+  margin: 5% auto;
+  background-color: rgba(220, 220, 220, 1);
+  border-radius: 50px;
+}
+
+input[type="submit"]:hover {
+  background-color: rgba(220, 0, 0, 1);
+}
+
+select {
+  font-size: 48px;
+  font-family: 'Orbitron', sans-serif;
+  border: none;
+  margin: 2%;
+}
